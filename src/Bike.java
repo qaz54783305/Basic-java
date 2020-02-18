@@ -1,9 +1,18 @@
 
 public class Bike {
-	double speed;
+	// 類別中才能進行存取
+	private double speed;
 	static int count;
 
-//建構子
+	public double getSpeed() {
+		return speed;
+	}
+
+	public void setSpeed(double speed) {
+		this.speed = speed;
+	}
+
+	// 建構子
 	Bike() {
 		speed = 7;
 		count++;

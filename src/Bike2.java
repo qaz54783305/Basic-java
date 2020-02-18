@@ -1,7 +1,7 @@
 
 public class Bike2 extends Bike {
-	double getSpeed() {
-
-		return speed;
+	void addSpeed(){
+		System.out.println("add speed 2");
+		
 	}
 }
